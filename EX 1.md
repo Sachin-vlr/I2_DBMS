@@ -22,7 +22,9 @@ RENAME: This is used to rename an object existing in the database.
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
 ### SQL QUERY: 
-
+```sql
+create table students(rollno int,name varchar(30),age int,address varchar(50),phoneno int);
+```
 
 ### OUTPUT:
 
