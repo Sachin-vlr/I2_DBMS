@@ -27,34 +27,52 @@ create table students(rollno int,name varchar(30),age int,address varchar(50),ph
 ```
 
 ### OUTPUT:
+![image](https://github.com/Sachin-vlr/I2_DBMS/assets/113497666/65fdf0a9-b7ac-4190-8ce2-f5fb10f57208)
+
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
+```sql
+alter table students add dept varchar(30);
+```
 
 ### OUTPUT:
+![image](https://github.com/Sachin-vlr/I2_DBMS/assets/113497666/1336297f-75a7-4081-9a50-247db13ffe40)
 
 
 ### 3) Drop the student table
  
 ### SQL QUERY: 
-
+```sql
+drop table mystudents;
+```
 
 ### OUTPUT:
+![image](https://github.com/Sachin-vlr/I2_DBMS/assets/113497666/6d90bad7-6c9d-47e4-bf3d-ab85f63deddc)
 
 
 ### 4) Delete the student table using truncate keyword
 
 ### SQL QUERY: 
-
+```sql
+truncate table mystudents;
+```
 
 ### OUTPUT:
+![image](https://github.com/Sachin-vlr/I2_DBMS/assets/113497666/55d5ddd8-8bc1-47fc-af72-f0cf1e30ac35)
 
 
 
 ### 5) Rename the student table to mystudent
 
 ### SQL QUERY: 
-
+```sql
+alter table students rename to mystudents;
+```
 
 ### OUTPUT:
+![image](https://github.com/Sachin-vlr/I2_DBMS/assets/113497666/8fc25d35-7a7c-44a7-8c2e-e6f9ad6bf85a)
+
+## RESULT:
+Therefore a student database is created and ddl commands are executed successfully. 
